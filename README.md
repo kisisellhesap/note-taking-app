@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+- Theme
+- Firebase
+  -toastify
 
-## Getting Started
+-pages
 
-First, run the development server:
+-----AUTH
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- login
+- signup
+- forgot-password
+- reset-password
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+------NOTES
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- all notes
+  -- id notes (dynamic)
+- archived notes
+- create new notes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+--------Settings
 
-## Learn More
+- color-theme
+- font-theme
+- change-password (must be logout and come back again)
 
-To learn more about Next.js, take a look at the following resources:
+--components
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-aside
+-header
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+notes,
+archived,
+users,
 
-## Deploy on Vercel
+dosya yapısı
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+aside / mobile & desktop / index.tsx
+component name MobileAside / DesktopAside
