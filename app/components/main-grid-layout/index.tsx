@@ -1,7 +1,6 @@
 "use client";
 import { usePathname } from "next/navigation";
 
-// app/components/MainGridLayout.tsx
 export const MainGridLayout = ({
   listSide,
   contentSide,

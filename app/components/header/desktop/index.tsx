@@ -17,7 +17,7 @@ const DesktopHeader = () => {
             className="text-preset-5 outline-none border-none w-75"
           />
         </div>
-        <Link href="/settings">
+        <Link href="/settings/color-theme">
           <SettingsIcon className="text-Neutral-500 dark:text-Neutral-400" />
         </Link>
       </div>
