@@ -14,7 +14,7 @@ const DetailComponent = () => {
     ) : (
       <ChangePassword />
     );
-  return <div className="px-6 py-5 flex flex-col gap-4">{activeComponent}</div>;
+  return <div className="flex flex-col gap-4">{activeComponent}</div>;
 };
 
 export default DetailComponent;

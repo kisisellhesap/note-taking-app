@@ -9,6 +9,8 @@ const Nav = () => {
   console.log(path);
   return (
     <div className="flex flex-col gap-2">
+      <h1 className="text-preset-1 text-Neutral-950 dark:text-white lg:hidden">Settings</h1>
+
       <div className="flex flex-col gap-2">
         <Button
           href={"/settings/color-theme"}

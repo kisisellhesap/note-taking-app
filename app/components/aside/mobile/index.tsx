@@ -13,7 +13,7 @@ const MobileAside = () => {
   // console.log("MobileAside params:", params);
   // console.log("MobileAside searchParam:", searchParam);
   return (
-    <div className="px-4 py-3 sm:px-8 sm:py-3 flex justify-between items-center bg-white dark:bg-Neutral-950 border-t border-Neutral-200 dark:border-Neutral-800 shadow-[0_-4px_6px_rgba(240,240,240,0.6)] dark:shadow-[0_-4px_6px_rgba(0,0,0,0.3)] ">
+    <div className="px-4 py-3 sm:px-8 sm:py-3 flex justify-between items-center bg-white dark:bg-Neutral-950 border-t border-Neutral-200 dark:border-Neutral-800 shadow-[0_-4px_6px_rgba(240,240,240,0.6)] dark:shadow-[0_-4px_6px_rgba(0,0,0,0.3)] fixed bottom-0 z-20 w-full">
       <LinkBtn href="/notes" text="Home" icon={<HomeIcon />} isActive={path === "/notes" && !searchParam} />
       <VerticalLine />
       <LinkBtn href="?search=open" text="Search" icon={<SearchIcon />} isActive={searchParam === "open"} />
